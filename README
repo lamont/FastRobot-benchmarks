@@ -1,0 +1,3 @@
+Scripts to speed up creation of systems and benchmarks for machines hosted on amazon's EC2.
+
+This should prevent errors from creeping in for machines created by hand.
