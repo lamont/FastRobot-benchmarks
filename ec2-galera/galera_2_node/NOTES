@@ -1,0 +1,5 @@
+added second node into galera mix:
+
+edited my.cnf on second machine to include galera://domU-12-31-39-05-14-A1.compute-1.internal
+started mysqld on rep2, it paused rep1 and started replication via rsync
+
