@@ -1,0 +1,4 @@
+standalone vanilla mysql-5.5.17-linux2.6-x86_64, copied into /usr/local and symlinked as /usr/local/mysql
+
+tried noop and deadline, no effect.
+
