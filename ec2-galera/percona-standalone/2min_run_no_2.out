@@ -15,26 +15,26 @@ Done.
 
 OLTP test statistics:
     queries performed:
-        read:                            346864
-        write:                           123880
-        other:                           49552
-        total:                           520296
-    transactions:                        24776  (206.32 per sec.)
+        read:                            467852
+        write:                           167090
+        other:                           66836
+        total:                           701778
+    transactions:                        33418  (278.28 per sec.)
     deadlocks:                           0      (0.00 per sec.)
-    read/write requests:                 470744 (3920.15 per sec.)
-    other operations:                    49552  (412.65 per sec.)
+    read/write requests:                 634942 (5287.40 per sec.)
+    other operations:                    66836  (556.57 per sec.)
 
 Test execution summary:
-    total time:                          120.0830s
-    total number of events:              24776
-    total time taken by event execution: 3841.0110
+    total time:                          120.0860s
+    total number of events:              33418
+    total time taken by event execution: 3841.8612
     per-request statistics:
-         min:                                 34.02ms
-         avg:                                155.03ms
-         max:                               1025.86ms
-         approx.  95 percentile:             277.71ms
+         min:                                 30.55ms
+         avg:                                114.96ms
+         max:                                516.36ms
+         approx.  95 percentile:             196.12ms
 
 Threads fairness:
-    events (avg/stddev):           774.2500/5.72
-    execution time (avg/stddev):   120.0316/0.04
+    events (avg/stddev):           1044.3125/10.98
+    execution time (avg/stddev):   120.0582/0.01
 
