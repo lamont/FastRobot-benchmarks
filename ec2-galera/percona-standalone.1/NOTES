@@ -1,0 +1,5 @@
+used same mysql backing files from the galera test, just swapped symlinks on /usr/local/mysql to the percona build.
+
+Worked like a charm
+
+
