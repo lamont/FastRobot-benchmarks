@@ -9,3 +9,32 @@ Using Special distribution (12 iterations,  1 pct of values are returned in 75 p
 Using "BEGIN" for starting transactions
 Using auto_inc on the id column
 Threads started!
+Time limit exceeded, exiting...
+(last message repeated 1 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            966560
+        write:                           345200
+        other:                           138080
+        total:                           1449840
+    transactions:                        69040  (22.13 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 1311760 (420.41 per sec.)
+    other operations:                    138080 (44.25 per sec.)
+
+Test execution summary:
+    total time:                          3120.1932s
+    total number of events:              69040
+    total time taken by event execution: 6239.5714
+    per-request statistics:
+         min:                                 15.95ms
+         avg:                                 90.38ms
+         max:                                875.54ms
+         approx.  95 percentile:             216.94ms
+
+Threads fairness:
+    events (avg/stddev):           34520.0000/51.00
+    execution time (avg/stddev):   3119.7857/0.05
+
