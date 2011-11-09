@@ -5,7 +5,7 @@ Number of threads: 2
 
 Doing OLTP test.
 Running mixed OLTP test
-Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using Uniform distribution
 Using "BEGIN" for starting transactions
 Using auto_inc on the id column
 Threads started!
@@ -15,26 +15,29 @@ Done.
 
 OLTP test statistics:
     queries performed:
-        read:                            776314
-        write:                           277255
-        other:                           110902
-        total:                           1164471
-    transactions:                        55451  (19.25 per sec.)
+        read:                            257656
+        write:                           92020
+        other:                           36808
+        total:                           386484
+    transactions:                        18404  (6.39 per sec.)
     deadlocks:                           0      (0.00 per sec.)
-    read/write requests:                 1053569 (365.80 per sec.)
-    other operations:                    110902 (38.51 per sec.)
+    read/write requests:                 349676 (121.38 per sec.)
+    other operations:                    36808  (12.78 per sec.)
 
 Test execution summary:
-    total time:                          2880.1407s
-    total number of events:              55451
-    total time taken by event execution: 5759.7022
+    total time:                          2880.7391s
+    total number of events:              18404
+    total time taken by event execution: 5761.0626
     per-request statistics:
-         min:                                 17.02ms
-         avg:                                103.87ms
-         max:                                810.69ms
-         approx.  95 percentile:             241.69ms
+         min:                                  9.42ms
+         avg:                                313.03ms
+         max:                               3029.02ms
+         approx.  95 percentile:             731.37ms
 
 Threads fairness:
-    events (avg/stddev):           27725.5000/26.50
-    execution time (avg/stddev):   2879.8511/0.01
+    events (avg/stddev):           9202.0000/60.00
+    execution time (avg/stddev):   2880.5313/0.12
+
+ 31768.0000/129.00
+    execution time (avg/stddev):   2879.7681/0.02
 
