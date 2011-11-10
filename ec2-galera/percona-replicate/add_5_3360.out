@@ -1,0 +1,7 @@
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+FATAL: unable to connect to MySQL server, aborting...
+FATAL: error 1040: Too many connections
+ALERT: Error: failed to determine table 'sbtest' type!
+ALERT: MySQL error: Too many connections
+FATAL: failed to get database capabilities!
