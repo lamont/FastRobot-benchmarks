@@ -1,0 +1,6 @@
+15 min warmup w/ 32 threads
+5 threads every 5m for an hour
+uniform distribution
+
+tx_commit=2
+innodb_doublewrite=0
