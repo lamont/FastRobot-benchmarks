@@ -1,0 +1,40 @@
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 5
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Uniform distribution
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 4 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            81074
+        write:                           28955
+        other:                           11582
+        total:                           121611
+    transactions:                        5791   (3.22 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 110029 (61.11 per sec.)
+    other operations:                    11582  (6.43 per sec.)
+
+Test execution summary:
+    total time:                          1800.3617s
+    total number of events:              5791
+    total time taken by event execution: 9001.4988
+    per-request statistics:
+         min:                                 31.76ms
+         avg:                               1554.39ms
+         max:                               5705.99ms
+         approx.  95 percentile:            2678.89ms
+
+Threads fairness:
+    events (avg/stddev):           1158.2000/9.24
+    execution time (avg/stddev):   1800.2998/0.03
+
