@@ -9,3 +9,32 @@ Using Uniform distribution
 Using "BEGIN" for starting transactions
 Using auto_inc on the id column
 Threads started!
+Time limit exceeded, exiting...
+(last message repeated 4 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            1040676
+        write:                           371670
+        other:                           148668
+        total:                           1561014
+    transactions:                        74334  (10.77 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 1412346 (204.66 per sec.)
+    other operations:                    148668 (21.54 per sec.)
+
+Test execution summary:
+    total time:                          6901.0530s
+    total number of events:              74334
+    total time taken by event execution: 34502.6416
+    per-request statistics:
+         min:                                  9.38ms
+         avg:                                464.16ms
+         max:                               3927.41ms
+         approx.  95 percentile:            1417.23ms
+
+Threads fairness:
+    events (avg/stddev):           14866.8000/56.55
+    execution time (avg/stddev):   6900.5283/0.28
+
