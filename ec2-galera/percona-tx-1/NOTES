@@ -1,0 +1,1 @@
+run the percona test again with trx_commit=1 for full ACID compliance
